@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<title>浏览器升级提示 - by http://getf2e.com</title>
+	<style>
+		.container{ width: 800px; margin: 100px auto 0;}
+		.demo{ height: 1000px; }
+		.code{ border: 1px solid #ccc; background: #f8f8f8}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="demo">
+			<h1>浏览器升级 提示插件</h1>
+
+			<h2>用法</h2>
+			<pre class="code">
+	&lt;script src="upgrade.js"&gt;&lt;/script&gt;
+	&lt;script&gt;
+	// ie8及以下
+	BrowserUpgrade('msie', 8);
+	&lt;/script&gt;
+			</pre>
+		</div>
+	</div>
+	
+	<script src="upgrade.js"></script>
+	<script>
+		BrowserUpgrade('msie', 8);
+	</script>
+</body>
+</html>

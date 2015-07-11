@@ -1,0 +1,12 @@
+/**!
+ * 浏览器升级
+ * @author: tomieric <tomieric@gmail.com>
+ * @blog:   http://getf2e.com
+ * @date:   2015-07-11;
+ */
+*{ margin:0; padding:0;}
+.browser-upgrade{ height: 0; padding: 0 20px; background: #fcf8e3; line-height: 40px; color: #8a6d3b; text-align: center; overflow: hidden; }
+.browser-upgrade a{ display: inline-block; *display: inline; *zoom: 1; margin: 0 5px;  vertical-align: middle; line-height: 24px; color: #fff; background: #5cb85c; border-top: 1px solid #358935; border-bottom: 1px solid #358935; cursor: pointer; text-decoration: none;}
+.browser-upgrade a:hover{ background: #f0ad4e; border-color: #C58831;}
+.browser-upgrade a span{ float: left; margin: 0 -1px; padding: 0 10px; border-left: 1px solid #358935; border-right: 1px solid #358935;  }
+.browser-upgrade a:hover span{ border-color: #C58831  }
